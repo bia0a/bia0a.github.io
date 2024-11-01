@@ -7,7 +7,7 @@ function accessPlayerPage() {
       case "novak moldovan":
           window.location.href = "novak-moldovan.html";
           break;
-      case "julius Petrov":
+      case "julius petrov":  // Mudei para minúsculas
           window.location.href = "julius.html";
           break;
       case "andreas frança":
@@ -16,9 +16,9 @@ function accessPlayerPage() {
       case "fred remington":
           window.location.href = "fred-remington.html";
           break;
-      case "George remington":
-            window.location.href = "George-remington.html";
-            break;
+      case "george remington": // Mudei para minúsculas
+          window.location.href = "george-remington.html";
+          break;
       default:
           errorMessage.innerText = "Nome incorreto. Tente novamente.";
           break;
