@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organização NAIPE - Arquivo Confidencial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Bem-vindo, Agente da NAIPE</h1>
+        <p>Insira a senha para desbloquear o portal</p>
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="checkPassword()">Acessar</button>
+        <p id="error-message"></p>
+    </div>
+
+    <div id="secret-content" style="display: none;">
+        <h2>Arquivo Confidencial da NAIPE</h2>
+        <p>Abaixo, você encontrará documentos e mensagens secretas. Use seu intelecto para decifrar os enigmas.</p>
+        
+        <div class="file">
+            <h3>Documento A - Mensagem Criptografada</h3>
+            <p>Clique para revelar: <span onclick="revealText('A')">██████████</span></p>
+            <div id="messageA" style="display: none;">"A guerra do tempo começou. Códigos precisam ser decifrados."</div>
+        </div>
+
+        <div class="file">
+            <h3>Documento B - Missão Secreta</h3>
+            <p>Objetivo: Destruir os portais antes que o Operador Sigma ative a próxima fase.</p>
+        </div>
+
+        <button onclick="accessTransmission()">Acessar Sala de Transmissão</button>
+    </div>
+
+    <div id="transmission" style="display: none;">
+        <h2>Transmissão Ao Vivo</h2>
+        <p>Esta transmissão contém informações vitais. Assista e aguarde instruções.</p>
+        <!-- Coloque aqui um link para seu vídeo ou stream -->
+        <a href="https://youtube.com" target="_blank">Acessar Transmissão no YouTube</a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
