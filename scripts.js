@@ -1,23 +1,26 @@
-function checkPassword() {
-    const password = document.getElementById("password").value;
-    const errorMessage = document.getElementById("error-message");
+function accessPlayerPage() {
+  const passwordInput = document.getElementById("player-password").value.trim().toLowerCase();
+  const errorMessage = document.getElementById("error-message");
 
-    if (password === "Turing") {  // Defina a senha correta
-        document.getElementById("container").style.display = "none";
-        document.getElementById("secret-content").style.display = "block";
-        errorMessage.innerText = "";
-    } else {
-        errorMessage.innerText = "Senha incorreta. Tente novamente.";
-    }
-}
-
-function revealText(id) {
-    if (id === 'A') {
-        document.getElementById("messageA").style.display = "block";
-    }
-}
-
-function accessTransmission() {
-    document.getElementById("secret-content").style.display = "none";
-    document.getElementById("transmission").style.display = "block";
+  // Usa switch case para verificar o nome inserido e redirecionar para a página correspondente
+  switch (passwordInput) {
+      case "novak moldovan":
+          window.location.href = "novak-moldovan.html";
+          break;
+      case "julius Petrov":
+          window.location.href = "julius.html";
+          break;
+      case "andreas frança":
+          window.location.href = "andreas-franca.html";
+          break;
+      case "fred remington":
+          window.location.href = "fred-remington.html";
+          break;
+      case "George remington":
+            window.location.href = "George-remington.html";
+            break;
+      default:
+          errorMessage.innerText = "Nome incorreto. Tente novamente.";
+          break;
+  }
 }
