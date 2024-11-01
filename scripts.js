@@ -17,7 +17,7 @@ function accessPlayerPage() {
           window.location.href = "fred-remington.html";
           break;
       case "george remington": // Mudei para minúsculas
-          window.location.href = "georde-remington.html";
+          window.location.href = "george-remington.html";
           break;
       default:
           errorMessage.innerText = "Nome incorreto. Tente novamente.";
