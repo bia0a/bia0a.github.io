@@ -1,0 +1,62 @@
+{
+    "novak-moldovan": {
+        "nome": "Novak Moldovan",
+        "status": "Ativo",
+        "missao": "Proteger a integridade do Véu sobrenatural.",
+        "objetivo": "Garantir que a investigação de Turing não exponha segredos da NAIPE.",
+        "informacao": "Além da codificação, magia também ajudará Turing. Já ouviu falar em se ocultar antes? Não? Pois agora terá de saber..."
+    },
+    "julius-petrov": {
+        "nome": "Julius Petrov",
+        "status": "Sob Vigilância",
+        "missao": "Proteger a integridade do Véu sobrenatural.",
+        "objetivo": "Garantir que a investigação de Turing não exponha segredos da NAIPE.",
+        "informacao": "Proteger Turing enquanto ele realiza o trabalho de decodificação. Possíveis inimigos de Turing tentarão impedi-lo. Proteja-o!"
+    },
+    "andreas-frança": {
+        "nome": "Andreas França",
+        "status": "Ativo",
+        "missao": "Proteger a integridade do Véu sobrenatural.",
+        "objetivo": "Garantir que a investigação de Turing não exponha segredos da NAIPE.",
+        "informacao": "Junto com Paus, tente retornar à sua linha do tempo original antes que seja tarde demais."
+    },
+    "thaddeus-baker": {
+        "nome": "Thaddeus Baker",
+        "status": "Inativo",
+        "missao": "Não encontrada",
+        "objetivo": "Não encontrado",
+        "informacao": "Não encontrada"
+    },
+    "oliver-graham": {
+        "nome": "Oliver Graham",
+        "status": "Inativo",
+        "missao": "Não encontrada",
+        "objetivo": "Não encontrado",
+        "informacao": "Não encontrada"
+    },
+    "fred-remington": {
+        "nome": "Fred Remington",
+        "status": "Inativo",
+        "missao": "Não encontrada",
+        "objetivo": "Não encontrado",
+        "informacao": "Não encontrada"
+    },
+     "george-remington": {
+        "nome": "George Remington",
+        "status": "Inativo",
+        "missao": "Não encontrada",
+        "objetivo": "Não encontrado",
+        "informacao": "Não encontrada"
+    },  
+    "elias-voss": {
+        "nome": "Elias Voss",
+        "status": "DESTRUÇÃO IMINENTE",
+        "missao": "Evitar ser apagado da existência.",
+        "objetivo": "Descobrir quem está tentando apagá-lo e por quê.",
+        "informacao": "Os registros da NAIPE estão falhando. Você não deveria existir. Mas, se ainda está lendo isso... talvez ainda haja uma chance."
+    }
+
+   
+    
+
+}
